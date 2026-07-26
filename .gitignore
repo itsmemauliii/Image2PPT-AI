@@ -1,6 +1,12 @@
 __pycache__/
 *.pyc
-temp/
-uploads/
-output/
+*.pyo
 .env
+.venv/
+venv/
+uploads/*
+output/*
+temp/*
+.idea/
+.vscode/
+.DS_Store
