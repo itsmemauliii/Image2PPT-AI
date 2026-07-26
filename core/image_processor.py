@@ -9,13 +9,4 @@ def preprocess(image):
 
     gray=cv2.GaussianBlur(gray,(3,3),0)
 
-    thresh=cv2.adaptiveThreshold(
-        gray,
-        255,
-        cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
-        cv2.THRESH_BINARY,
-        11,
-        2
-    )
-
-    return thresh
+    return gray
