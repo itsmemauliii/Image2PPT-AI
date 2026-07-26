@@ -1,7 +1,13 @@
-streamlit
+streamlit>=1.45.0
 opencv-python
-pillow
 numpy
+pillow
 python-pptx
 paddleocr
 paddlepaddle
+python-dotenv
+pandas
+scikit-image
+scipy
+matplotlib
+tqdm
