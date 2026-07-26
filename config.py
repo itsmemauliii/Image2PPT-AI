@@ -1,0 +1,10 @@
+UPLOAD_FOLDER = "uploads"
+OUTPUT_FOLDER = "output"
+TEMP_FOLDER = "temp"
+
+SLIDE_WIDTH = 13.333
+SLIDE_HEIGHT = 7.5
+
+DEFAULT_FONT = "Calibri"
+
+MAX_FILE_SIZE = 25
