@@ -10,6 +10,12 @@ st.set_page_config(
     page_icon="📊",
     layout="wide"
 )
+st.title("Image2PPT AI")
+
+tab1,tab2=st.tabs([
+    "Convert",
+    "History"
+])
 
 st.title("📊 Image2PPT AI")
 st.caption("Convert images into editable PowerPoint slides")
